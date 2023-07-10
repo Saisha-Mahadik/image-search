@@ -97,10 +97,27 @@ form button{
         padding: 20p;
         width: 45%;
     }
+    form button{
+        padding: 14px;
+        width: 15%;
+        border-radius: 5px;
+        border: transparent;
+        color: white;
+        background-color: #576b8a ;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .search-result{
         width: 100%;
+    }
+
+    form button{
+        padding: 14px;
+        width: 15%;
+        border-radius: 5px;
+        border: transparent;
+        color: white;
+        background-color: #576b8a ;
     }
 }
